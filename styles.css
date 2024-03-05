@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 80%;
+  background-color: blueviolet;
+  padding: 34px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.container h3,
+p {
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+  color: darkred;
+}
+.p {
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  color: aquamarine;
+}
+
+.onsubmitmsg {
+  color: darkblue;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+input {
+  width: 70%;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font: 400;
+  font-size: 18px;
+}
+label {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+#gender {
+  margin-left: 20px;
+}
+form,
+.radios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.radios {
+  flex-direction: row;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  border: 0;
+  margin: 5px;
+}
+
+.submitbtn,
+.resetbtn {
+  background-color: green;
+  color: white;
+  font-size: 18px;
+}
+.resetbtn {
+  background-color: brown;
+}
